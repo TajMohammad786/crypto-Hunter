@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px){
+  .container{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 40px;
+}
+}
+.container{
+  width: 100%;
+  margin-top: 0;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.selectButton{
+  border: "1px solid gold";
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  /* background-color: selected ? "gold" : "";
+  color: selected ? "black" : "";
+  fontWeight: selected ? 700 : 500; */
+  &:hover {
+    background-color: "gold";
+    color: black;
+  }
+  width: 22%;
+}
